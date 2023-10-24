@@ -1,0 +1,212 @@
+<!DOCTYPE films SYSTEM "filmographie.dtd">
+<?xml-stylesheet href="filmographie.xsl" type="text/xsl" ?>
+
+<films
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="filmographie.xsd">
+    <film annee="2005" visa="114089">
+        <titre>King Kong</titre>
+        <exploitation>
+            <dateSortie>mercredi 14 décembre 2005</dateSortie>
+            <nbEntrees>2838759</nbEntrees>
+            <nbSalles>547</nbSalles>
+            <listepays>
+                <pays>France</pays>
+                <pays>Allemagne</pays>
+                <pays>Royaume-Uni</pays>
+            </listepays>
+        </exploitation>
+        <acteurs>
+            <acteur ref="1">Peter Jackson</acteur>
+            <acteur ref="2">Naomi Watts</acteur>
+            <acteur ref="3">Jack Black</acteur>
+            <acteur ref="4">Adrien Brody</acteur>
+        </acteurs>
+        <realisateur>Peter Jackson</realisateur>
+        <genres>
+            <genre>aventure</genre>
+        </genres>
+        <duree>118</duree>
+        <scenario>
+            New York, 1933. Artiste de music-hall à la rue, <personnage>Ann Darrow</personnage> rencontre l'audacieux <keyword>explorateur/réalisateur</keyword> <personnage>Carl Denham</personnage>. <ev>Ce dernier rêve de terminer son lm inachevé, mais nourrit surtout la folle ambition d'être le premier à découvrir le secret de la mystérieuse Skull Island</ev>. Il va entraîner <personnage>Ann</personnage> dans sa périlleuse aventure...
+        </scenario>
+    </film>
+    <film annee="2009" visa="114090">
+        <titre>Avatar</titre>
+        <exploitation>
+            <dateSortie>mercredi 16 décembre 2009</dateSortie>
+            <nbEntrees>14624987</nbEntrees>
+            <nbSalles>14604</nbSalles>
+            <listepays>
+                <pays>Italie</pays>
+                <pays>Allemagne</pays>
+                <pays>Royaume-Uni</pays>
+            </listepays>
+        </exploitation>
+        <acteurs>
+            <acteur ref="5">Sam Worthington</acteur>
+            <acteur ref="6">Sigourney Weaver</acteur>
+            <acteur ref="7">Michelle Rodriguez</acteur>
+            <acteur ref="8">Zoe Saldana</acteur>
+        </acteurs>
+        <realisateur>James Cameron</realisateur>
+        <genres>
+            <genre>science-fiction</genre>
+        </genres>
+        <duree>155</duree>
+        <scenario>
+            <personnage>Jake Sully</personnage> est un ancien marine immobilisé dans un fauteuil roulant. Malgré sa paralysie, <personnage>Jake</personnage> est resté un combattant au plus profond de son être. Il est recruté pour se rendre à des années-lumière de la Terre, sur <keyword>Pandora</keyword>, où de puissants groupes industriels exploitent un minerai rarissime destiné à résoudre la crise énergétique sur Terre. <ev>Parce que l'atmosphère de Pandora est toxique pour les humains, ceux-ci ont créé le Programme Avatar, qui permet à des ''pilotes'' humains de lier leur esprit à un avatar, un corps biologique commandé à distance, capable de survivre dans cette atmosphère létale</ev>. Ces avatars sont des hybrides créés génétiquement en croisant l'ADN humain avec celui des Na'vi, les autochtones de <keyword>Pandora</keyword>.
+        </scenario>
+    </film>
+    <film annee="1998" visa="114091">
+        <titre>Titanic</titre>
+        <exploitation>
+            <dateSortie>mercredi 7 janvier 1998</dateSortie>
+            <nbEntrees>21465445</nbEntrees>
+            <nbSalles>22589</nbSalles>
+            <listepays>
+                <pays>France</pays>
+                <pays>Allemagne</pays>
+                <pays>Royaume-Uni</pays>
+            </listepays>
+        </exploitation>
+        <acteurs>
+            <acteur ref="9"></acteur>
+            <acteur ref="10">Kate Winslet</acteur>
+            <acteur ref="11">Gloria Stuart</acteur>
+            <acteur ref="12">Billy Zane</acteur>
+        </acteurs>
+        <realisateur>James Cameron</realisateur>
+        <genres>
+            <genre>drame</genre>
+        </genres>
+        <duree>194</duree>
+        <scenario>
+            Conduite par <personnage>Brock Lovett</personnage>, une <keyword>expédition américaine</keyword> fouillant l'épave du <keyword>Titanic</keyword> remonte à la surface le croquis d'une femme nue. Alertée par les médias la dame en question, <personnage>Rose DeWitt Bukater</personnage>, <ev>aujourd'hui centenaire, rejoint les lieux du naufrage, d'où elle entreprend de conter le récit de son fascinant, étrange et tragique voyage...</ev>
+        </scenario>
+    </film>
+    <film annee="2023" visa="123456">
+        <titre>Barbie</titre>
+        <exploitation>
+            <dateSortie>mercredi 19 juillet 2023</dateSortie>
+            <nbEntrees>5325687</nbEntrees>
+            <nbSalles>9856</nbSalles>
+            <listepays>
+                <pays>France</pays>
+                <pays>Allemagne</pays>
+                <pays>Royaume-Uni</pays>
+            </listepays>
+        </exploitation>
+        <acteurs>
+            <acteur ref="13">Margot Robbie</acteur>
+            <acteur ref="14">Ryan Gosling</acteur>
+            <acteur ref="15">Will Ferrell</acteur>
+            <acteur ref="16">Emma Mackey</acteur>
+        </acteurs>
+        <realisateur>Greta Gerwig</realisateur>
+        <genres>
+            <genre>comédie</genre>
+            <genre>aventure</genre>
+        </genres>
+        <duree>114</duree>
+        <scenario>
+            <personnage>Barbie</personnage>, qui vit à <keyword>Barbie Land</keyword>, est <ev>expulsée du pays pour être loin d'être une poupée à l'apparence parfaite; n'ayant nulle part où aller, elle part pour le monde humain et cherche le vrai bonheur</ev>.
+        </scenario>
+    </film>
+    <acteurDescription id="1" lieuNaissance="Pukerua Bay">
+        <nom>Jackson</nom>
+        <prenom>Peter</prenom>
+        <dateNaissance>31/10/1961</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="2" lieuNaissance="Shoreham">
+        <nom>Watts</nom>
+        <prenom>Naomi</prenom>
+        <dateNaissance>22/09/1968</dateNaissance>
+        <sexe>F</sexe>
+     </acteurDescription>
+    <acteurDescription id="3" lieuNaissance="Santa Monica">
+        <nom>Black</nom>
+        <prenom>Jack</prenom>
+        <dateNaissance>28/08/1969</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="4" lieuNaissance="Hermosa Beach">
+        <nom>Brody</nom>
+        <prenom>Adrien</prenom>
+        <dateNaissance>14/04/1973</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="5" lieuNaissance="Kapuskasing">
+        <nom>Cameron</nom>
+        <prenom>James</prenom>
+        <dateNaissance>16/08/1954</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="6" lieuNaissance="Godalming">
+        <nom>Worthington</nom>
+        <prenom>Sam</prenom>
+        <dateNaissance>02/08/1976</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="7" lieuNaissance="New York">
+        <nom>Weaver</nom>
+        <prenom>Sigourney</prenom>
+        <dateNaissance>08/10/1949</dateNaissance>
+        <sexe>F</sexe>
+    </acteurDescription>
+    <acteurDescription id="8" lieuNaissance="San Antonio">
+        <nom>Rodriguez</nom>
+        <prenom>Michelle</prenom>
+        <dateNaissance>12/07/1978</dateNaissance>
+        <sexe>F</sexe>
+    </acteurDescription>
+    <acteurDescription id="9" lieuNaissance="Hollywood">
+        <nom>DiCaprio</nom>
+        <prenom>Leonardo</prenom>
+        <dateNaissance>11/11/1974</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription id="10" lieuNaissance="Reading">
+        <nom>Winslet</nom>
+        <prenom>Kate</prenom>
+        <dateNaissance>05/10/1975</dateNaissance>
+        <sexe>F</sexe>
+    </acteurDescription>
+    <acteurDescription id="11" lieuNaissance="Santa Monica">
+        <nom>Stuart</nom>
+        <prenom>Gloria</prenom>
+        <dateNaissance>04/07/1910</dateNaissance>
+        <sexe>F</sexe>
+    </acteurDescription>
+    <acteurDescription id="12" lieuNaissance="Chicago">
+        <nom>Zane</nom>
+        <prenom>Billy</prenom>
+        <dateNaissance>24/02/1966</dateNaissance>
+        <sexe>M</sexe>
+    </acteurDescription>
+    <acteurDescription>
+        <nom>Robbie</nom>
+        <prenom>Margot</prenom>
+        <dateNaissance>02/07/1990</dateNaissance>
+        <sexe>F</sexe>
+    </acteurDescription>
+    <acteurDescription>
+        <nom>Gosling</nom>
+        <prenom>Ryan</prenom>
+        <dateNaissance>12/11/1980</dateNaissance>
+        <sexe>H</sexe>
+    </acteurDescription>
+    <acteurDescription>
+        <nom>Ferrell</nom>
+        <prenom>Will</prenom>
+        <dateNaissance>16/07/1967</dateNaissance>
+        <sexe>H</sexe>
+    </acteurDescription>
+<acteurDescription>
+        <nom>Mackey</nom>
+        <prenom>Emma</prenom>
+        <dateNaissance>04/01/1996</dateNaissance>
+        <sexe>F</sexe>
+</acteurDescription>
+</films>
