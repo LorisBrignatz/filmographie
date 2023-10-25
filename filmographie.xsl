@@ -9,7 +9,9 @@
             </head>
             <body>
                 <h1>Cinématographie</h1>
-                <xsl:apply-templates select="/films/film" >
+                <h1>Table des matières des films</h1>
+                <xsl:apply-templates select="/films/film" mode="tdm" />
+                <xsl:apply-templates select="/films/film" mode="complet" >
                     <xsl:sort select="@annee" order="descending" data-type="number" />
                     <xsl:sort select="exploitation/nbEntrees" order="descending" data-type="number" />
                 </xsl:apply-templates>
@@ -21,15 +23,31 @@
         </html>
     </xsl:template>
 
-    <xsl:template match="film">
+    <xsl:template match="film" mode="tdm">
+        <ul>
+            <li>
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:text>#</xsl:text>
+                        <xsl:value-of select="titre"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="titre"/>
+                </a>
+                <xsl:value-of select="concat(' (', count(acteurs/acteur), ' acteurs)')" />
+            </li>
+        </ul>
+    </xsl:template>
+
+    <xsl:template match="film" mode="complet">
         <xsl:if test="@annee = '2023'">
-        <h3>
-            <xsl:value-of select="titre" />
-            <span><font color="red"><small> (Nouveauté)</small></font></span>
-        </h3>
+            <h3>
+                <xsl:value-of select="titre" />
+                <span><font color="red"><small> (Nouveauté)</small></font></span>
+            </h3>
         </xsl:if>
+        <a name="{titre}" />
         <xsl:if test="@annee != '2023'">
-        <h3><xsl:value-of select="titre" /></h3>
+            <h3><xsl:value-of select="titre" /></h3>
         </xsl:if>
         <p><i>film américian de <xsl:value-of select="duree" />mn sorti en <xsl:value-of select="@annee" /></i></p>
         <p><i>réalisé par <xsl:value-of select="realisateur" /></i></p>
